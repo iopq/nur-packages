@@ -80,7 +80,7 @@ buildGoModule {
     mainProgram = "xrayA";
     license = licenses.agpl3Only;
     platforms = platforms.linux;
-    maintainers = with maintainers; [ elliot ];
+    maintainers = with maintainers; [ iopq ];
   };
 }
 
