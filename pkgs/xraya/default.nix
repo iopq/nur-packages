@@ -19,8 +19,6 @@ let
     sha256 = "gdT0VFcNkSd0TH1VJPnbErdoCBp077rcNWOJkaxfhi4=";
   };
 
-#  src = /home/iopq/sw/xraya;
-
   web = mkYarnPackage {
     inherit pname version;
     src = "${src}/gui";
