@@ -45,7 +45,7 @@ buildGoModule {
   inherit pname version;
 
   src = "${src}/service";
-  vendorSha256 = "sha256-Yz6+4ghiJf6a9TB4Sql5AY67dX0mLGhf6H4PVKGXSFE=";
+  vendorHash = "sha256-Yz6+4ghiJf6a9TB4Sql5AY67dX0mLGhf6H4PVKGXSFE=";
 
   ldflags = [
     "-s"
