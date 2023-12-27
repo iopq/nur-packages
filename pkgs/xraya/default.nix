@@ -15,8 +15,8 @@ let
   src = fetchFromGitHub {
     owner = "iopq";
     repo = "xraya";
-    rev = "v3.1.1";
-    sha256 = "sha256-jCKTFJqTCR8QJ1xvv/x+jyIhG8CB2k2OH8h9x1UmRlY=";
+    rev = "4a775e7e91927087a4ec3829119b0eee2c612a4a";
+    sha256 = "sha256-64JcyZDZQ0dOIbVO+MqESyUWrCG9MY+wjRPWx2/Rh8c=";
   };
 
   web = mkYarnPackage {
